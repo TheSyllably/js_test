@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="schedule__title-block">
+        <h1 class="schedule-title">Рабочий график</h1>
+      </div>
+
+      <div class="schedule__block">
+        <div class="schedule__dayblock">
+          <h1 class="d_day">Понедельник</h1>
+          <div class="schedule__time-block">
+            <input type="number" class="hour" value="07" maxlength="2" disabled />
+            <input type="number" class="min" value="30" disabled />
+            -
+            <input type="number" class="hour" value="16" disabled />
+            <input type="number" class="min" value="30" disabled />
+            <button class="btn" data-action="edit">E</button>
+          </div>
+        </div>
+
+        <div class="schedule__dayblock">
+          <h1 class="d_day">Вторник</h1>
+          <div class="schedule__time-block">
+            <input type="number" class="hour" value="07" disabled />
+            <input type="number" class="min" value="30" disabled />
+            -
+            <input type="number" class="hour" value="16" disabled />
+            <input type="number" class="min" value="30" disabled />
+            <button class="btn" data-action="edit">E</button>
+          </div>
+        </div>
+
+        <div class="schedule__dayblock">
+          <h1 class="d_day">Среда</h1>
+          <div class="schedule__time-block">
+            <input type="number" class="hour" value="07" disabled />
+            <input type="number" class="min" value="30" disabled />
+            -
+            <input type="number" class="hour" value="16" disabled />
+            <input type="number" class="min" value="30" disabled />
+            <button class="btn" data-action="edit">E</button>
+          </div>
+        </div>
+
+        <div class="schedule__dayblock">
+          <h1 class="d_day">Четверг</h1>
+          <div class="schedule__time-block">
+            <input type="number" class="hour" value="07" disabled />
+            <input type="number" class="min" value="30" disabled />
+            -
+            <input type="number" class="hour" value="16" disabled />
+            <input type="number" class="min" value="30" disabled />
+            <button class="btn" data-action="edit" data->E</button>
+          </div>
+        </div>
+
+        <div class="schedule__dayblock">
+          <h1 class="d_day">Пятница</h1>
+          <div class="schedule__time-block">
+            <input type="number" class="hour" value="07" disabled />
+            <input type="number" class="min" value="30" disabled />
+            -
+            <input type="number" class="hour" value="16" disabled />
+            <input type="number" class="min" value="30" disabled />
+            <button class="btn" data-action="edit">E</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="savebtn">Сохранить рабочий график</button>
+
+      <button class="loadBtn">Load</button>
+
+      <div class="saves">
+        <div class="saved__schedules">
+          <h1>Рабочий график номер 1</h1>
+          <button data-action="load" class="loadbtn">Загрузить</button>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
